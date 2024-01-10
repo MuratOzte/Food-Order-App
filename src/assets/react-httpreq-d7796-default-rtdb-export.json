@@ -1,0 +1,95 @@
+{
+  "Meals": {
+    "m1": {
+      "description": "Finest fish and veggies",
+      "name": "Sushi",
+      "price": 22.99
+    },
+    "m2": {
+      "description": "A german specialty!",
+      "name": "Schnitzel",
+      "price": 16.5
+    },
+    "m3": {
+      "description": "American, raw, meaty",
+      "name": "Barbecue Burger",
+      "price": 12.99
+    },
+    "m4": {
+      "description": "Healthy...and green...",
+      "name": "Green Bowl",
+      "price": 18.99
+    }
+  },
+  "Orders": {
+    "-Nd2AWaBPf70b63uSkd-": {
+      "adress": {
+        "city": "Başakşehir",
+        "name": "Murat Öztürk",
+        "postalCode": "34488",
+        "street": "Bahçeşehir 1.kısım mahallesi cemre sokak vaditepe 4.bölge b kapısı k6 blok daire 31"
+      },
+      "meals": [
+        {
+          "amount": 1,
+          "id": "m3",
+          "name": "Barbecue Burger",
+          "price": 12.99
+        },
+        {
+          "amount": 1,
+          "id": "m4",
+          "name": "Green Bowl",
+          "price": 18.99
+        }
+      ]
+    },
+    "-Nd2EnjWJMaxhyoQy5lS": {
+      "adress": {
+        "city": "Başakşehir",
+        "name": "Murat Öztürk",
+        "postalCode": "34488",
+        "street": "Bahçeşehir 1.kısım mahallesi cemre sokak vaditepe 4.bölge b kapısı k6 blok daire 31"
+      },
+      "meals": [
+        {
+          "amount": 1,
+          "id": "m3",
+          "name": "Barbecue Burger",
+          "price": 12.99
+        },
+        {
+          "amount": 1,
+          "id": "m4",
+          "name": "Green Bowl",
+          "price": 18.99
+        },
+        {
+          "amount": 2,
+          "id": "m2",
+          "name": "Schnitzel",
+          "price": 16.5
+        }
+      ]
+    }
+  },
+  "cart": {
+    "items": [
+      {
+        "id": "p1",
+        "name": "My first book",
+        "price": 6,
+        "quantity": 3,
+        "totalPrice": 18
+      },
+      {
+        "id": "p2",
+        "name": "My second book",
+        "price": 4,
+        "quantity": 3,
+        "totalPrice": 12
+      }
+    ],
+    "totalQuantity": 6
+  }
+}
